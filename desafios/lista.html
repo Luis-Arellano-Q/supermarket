@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="lista del mercado">
+        <meta name="robots" content="index,follow">
+        <link rel="stylesheet" href="./STYLE.css">
+        <title>Lista del super</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index-follow">
+        <meta name="description" content="hola,como estan?">
+        <link rel="canonical" href="https://luis-arellano-q.github.io/supermarket/desafios">
+        <!-- <link rel="favicon" href="/assets/favicon.png"> -->
+        <link rel="apple-touch-icon" href="https://luis-arellano-q.github.io/supermarket/desafios">
+        <!-- <meta name="theme-color" content="#d90062"> -->
+        <meta name="twitter.card" content="summary">
+        <meta property="og:type" content="website">    
+        <meta property="og:title" name="twitter.title" content="hola,como estan?">
+        <meta property="og:image" name="twitter.image" content="hola,como estan?">
+        <meta property="og:url" name="twitter.url" content="https://luis-arellano-q.github.io/supermarket/desafios">
+        <meta property="og:description"  name="twitter.description" content="hola,como estan?">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">EL MERCADO LS</h1>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav__item"><input type="search" placeholder="Buscar" name="buscar" id="buscar"></li>
+                        <li class="nav__item" ><a href="#">Inicio</a></li>
+                        <li class="nav__item" ><a href="#">Herramientas</a></li>
+                        <li class="nav__item" ><a href="#">Alimentos</a></li>
+                        <li class="nav__item" ><a href="#">Juguetes</a></li>
+                        <li class="nav__item" ><a href="#">Compras</a></li>
+                    </ul>
+                </nav>
+            <section id="login">
+                <div class="login-img">
+                    <img src="./pexels-pixabay-264636.jpg" alt="supermercado y productos comestibles" width="1300" height="300" class="arriba">
+                </div> 
+            <!-- formulario del cliente -->
+
+                <div class="login-img">            
+                    <form action=""class="form">
+                        <h3 class="form__title">Cliente</h3>
+                        <label for="nombre" class="form__section">
+                            <span class="form__section__item">Nombre</span><br>
+                            <input type="text" name="nombre" id="nombre" autocomplete="name" placeholder="Pepe" required  class="form__section__item-box">
+                        </label><br>
+                        <label for="contraseña" class="form__section">
+                            <span class="form__section__item">Contraseña</span><br>
+                            <input type="password" name="contraseña" id="contraseña" autocomplete="current-password" required  class="form__section__item-box">
+                            </label><br>
+                        <input type="submit" value="Registar" class="form__boton">
+                    </form>
+                </div>
+            </section>    
+        </header>
+        <main>  
+             <!-- lista del supermercado -->
+            <section class="lista">
+                <h2 class="lista__titulo">Lista de compras</h2>
+                <ul class="lista__main">
+                    <li class="lista__categoria">Frutas</li>
+                    <ol>
+                        <li class="lista__categoria__item">Uvas</li>
+                        <li class="lista__categoria__item">Manzanas</li>
+                    </ol>
+                    <li class="lista__categoria">Verduras</li>
+                    <ol>
+                        <li class="lista__categoria__item">Papa</li>
+                        <li class="lista__categoria__item">Zanahoria</li>
+                    </ol>
+                    <li class="lista__categoria">Carnes</li>
+                    <ol>
+                        <li class="lista__categoria__item">Pescado</li>
+                        <li class="lista__categoria__item">Cerdo</li>
+                    </ol>
+                </ul>
+                 <h4 class="lista__aviso">Compra todo porfa!!</h4>
+            </section>
+<!-- 
+            Productos para comprar -->
+            <section class="productos">
+                <h2 class="productos__titulo">Productos</h2>
+                <figure class="productos__content">
+                    <div class="productos__div">
+                    <a target="_blanck" href="https://www.cocinafacil.com.mx/recetas/uva/">
+                            <img src="./imgenes/uvas.jpg" alt="uvas" width="150" class="productos__img"></a>
+                    <figcaption><input type="submit" value="comprar por $10" id="uvas" name="uvas" class="productos__boton"></figcaption>                        
+                    </div>
+                    <div class="productos__div">
+                        <img src="./imgenes/platano.jpg" alt="platanos" width="150" class="productos__img">
+                        <figcaption><input type="submit" value="comprar por $8" id="platano" name="platano" class="productos__boton"></figcaption>
+
+                    </div>
+                    <div class="productos__div">
+                        <img src="./imgenes/platano.jpg" alt="platanos" width="150" class="productos__img">
+                        <figcaption><input type="submit" value="comprar por $8" id="platano" name="platano" class="productos__boton"></figcaption>                        
+                    </div>
+                    <div class="productos__div">
+                        <a target="_blanck-1" href="https://www.cocinafacil.com.mx/search/manzana">
+                            <img src="./imgenes/manzanas.jpg" alt="manzanas" title="" width="150" class="productos__img"></a>
+                        <figcaption><input type="submit" value="comprar por $12" id="manzana" name="manzana" class="productos__boton"></figcaption>                        
+                    </div>
+                    <div class="productos__div">
+                        <a target="_blanck-2" href="https://www.cocinafacil.com.mx/search/papa">
+                            <img src="./imgenes/papa.jpg" alt="papa" width="150" class="productos__img"></a>
+                        <figcaption><input type="submit" value="comprar por $6" id="papa" name="papa" class="productos__boton"></figcaption> 
+                    </div>
+                    <div class="productos__div">
+                        <a target="_blanck-3" href="https://www.cocinafacil.com.mx/search/zanahoria">
+                            <img src="./imgenes/zanahorisa.jpg" alt="Zanahoria" width="150" class="productos__img"></a>
+                    <figcaption><input type="submit" value="comprar por $8" id="zanahoria" name="zanahoria" class="productos__boton"></figcaption>
+                    </div>
+                    <div class="productos__div">
+                        <img src="./imgenes/espinaca.jpg" alt="Espinaca" width="150" class="productos__img">
+                        <figcaption><input type="submit" value="comprar por $5" id="espinaca" name="espinaca" class="productos__boton"></figcaption>
+                    </div>
+                    <div class="productos__div">
+                        <img src="./imgenes/pollo.jpg" alt="pollo" width="150" class="productos__img">
+                        <figcaption><input type="submit" value="comprar por $13" id="pollo" name="pollo" class="productos__boton"></figcaption>
+                    </div>
+                    <div class="productos__div">
+                         <a target="_blanck-4" href="https://www.cocinafacil.com.mx/search/pescado">
+                            <img src="./imgenes/pescado.jpg" alt="Pescado" width="150" class="productos__img"></a>
+                        <figcaption><input type="submit" value="comprar por $15" id="pescado" name="pescado" class="productos__boton"></figcaption>
+                    </div>
+                    <div class="productos__div">
+                        <a target="_blanck-5" href="https://www.cocinafacil.com.mx/search/cerdo">
+                            <img src="./imgenes/cerdo.jpg" alt="cerdo" width="150" class="productos__img"></a>
+                        <figcaption><input type="submit" value="comprar por $20" id="cerdo" name="cerdo" class="productos__boton"></figcaption>
+                    </div>
+                </figure>
+            </section>
+        </main>
+        <footer class="footer">Luis Angel Arellano Quiquia</footer>
+    </body>
+</html>

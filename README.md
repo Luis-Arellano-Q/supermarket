@@ -4,4 +4,4 @@ supermarket html y css
 
 ## proyecto 
 
--[tienda-supermercado](https://luis-arellano-q.github.io/supermarket/desafios)
+-[tienda-supermercado-2.0](https://luis-arellano-q.github.io/supermarket/desafios)
